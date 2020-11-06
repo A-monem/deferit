@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  collapsable={false}
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "padding": 10,
+            "width": 250,
+          },
+          Object {
+            "position": "absolute",
+            "right": 10000000000,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "transparent",
+          }
+        }
+      />
+    </View>
+  </View>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    onDismiss={[Function]}
+    onRequestClose={[Function]}
+    onShow={[Function]}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(250, 250, 250, 0.70)",
+          "flex": 1,
+          "opacity": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "height": 0,
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "width": 0,
+            }
+          }
+        >
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "padding": 10,
+                  "width": 250,
+                },
+                Object {
+                  "position": "absolute",
+                  "right": 10000000000,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "transparent",
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "left": -7.5,
+              "position": "absolute",
+              "top": -2,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#617080",
+                "borderBottomWidth": 15,
+                "borderLeftColor": "transparent",
+                "borderLeftWidth": 8,
+                "borderRightColor": "transparent",
+                "borderRightWidth": 8,
+                "borderStyle": "solid",
+                "height": 0,
+                "width": 0,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#617080",
+              "borderRadius": 10,
+              "display": "flex",
+              "flex": 1,
+              "height": 0,
+              "justifyContent": "center",
+              "left": -17.999,
+              "padding": 10,
+              "position": "absolute",
+              "top": 10,
+              "width": 250,
+            }
+          }
+          testID="tooltipPopoverContainer"
+        >
+          <Text />
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;
