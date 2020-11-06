@@ -58,25 +58,25 @@ export default function App() {
           text: 'Congratulations bill has been paid',
           color: '#4caf50'
         }
-        break;
+        
       case 'Unable to pay':
         return {
           text: 'This bill has not been paid yet!!',
           color: '#f44336'
         }
-        break;
+        
       case 'Processing':
         return {
           text: 'This bill is currently in processing, it can take approx. 1-2 hours depending on the time of day',
           color: '#ff9800'
         }
-        break;
+        
       case 'Scheduled':
         return {
           text: 'This bill is scheduled to be paid and will be paid on the due date, you are in good hands!',
           color: '#3f51b5'
         }
-        break;
+       
       default:
         return '#000000'
     }
